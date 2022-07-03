@@ -29,15 +29,18 @@
         <p> <%= song_title %> </p>
         <a href="<%= song_link %>"><button id="download-btn">Télécharger</button></a>
       </div>
+      
     <% } else if (typeof success != "undefined" && !success) { %>
       <div class="errors">
         <p> <%= message %> </p>
       </div>
     <% } %>
+
   <div class="aide">
     <h3>Veuillez seulement copier coller la partie de l'URL comprise entre = et &. </h3>
     <img src="https://cdn.discordapp.com/attachments/883037937078501396/992773645850128444/cap.png">
     <h3>Une fois la vidéo trouvée, vous pourrez la télécharger en format .mp3. </h3>
+    <p>Site créé par Thibault</p>
   </div>
 
   </div>
